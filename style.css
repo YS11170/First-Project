@@ -54,7 +54,7 @@ p{
     padding: 0px;
     margin: 0px;
 }
-div.inner img{
+#hero{
     position: absolute;
     top: 130px;
     padding-left:310px ;
