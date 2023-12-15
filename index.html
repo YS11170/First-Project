@@ -4,23 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
+    <link rel="icon" type="image/x-icon" href="/public/favicon.jpg">
     <link rel="stylesheet" href="./style.css" />
+    <title>Log In</title>
 </head>
 
 <body>
 
     <div id="container">
-        <div class="leftside">
-            <img src="./leftlogo.png" alt="leftlogo" width="64px" height="64px" id="logo" />
-            <h1>Start your<br /> jounery with<br /> us.</h1>
-            <div class="inner">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sit?</p>
-                <p>Lorem, ipsum dolor.</p>
+        <div class="leftContainer">
+            <div id="content">
+                <img src="./leftlogo.png" alt="leftlogo" width="64px" height="64px" id="logo" />
+                <h1>Start your</h1>
+                <h1> Jounery with</h1>
+                <h1> Us.</h1>
+                <div class="inner">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sit?</p>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
             </div>
-            <img src="./log in.jpg.png" alt="default image" width="341px" height="513px" id="hero" />
+
+            <div id="hero">
+                <img src="./log in.jpg.png" alt="default image" width="341px" height="513px"/>
+            </div>
         </div>
         <div id="rightside">
         <form method="post">
@@ -41,7 +49,7 @@
                     <label for="uPassword">Password</label>
                     <div class="textcols">
                         <input type="password" id="uPassword" name="uPassword" min="8" max="30"
-                            placeholder="Enter your password" required />
+                            placeholder="Enter your password"autocomplete="current-password" required />
                     </div>
                 </div>
                 <br />
@@ -64,12 +72,7 @@
             </div>
         </form>
     </div>
-
-
-
-    <script type="text/javascript">
-
-    </script>
+</script type="text/javascript">
 </body>
 
 </html>
